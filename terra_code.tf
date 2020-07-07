@@ -1,4 +1,4 @@
-provider "aws" {
+provider "aws" { 
   profile = "suhani"
   region  = "ap-south-1"
 }
