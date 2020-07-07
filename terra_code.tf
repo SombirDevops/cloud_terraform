@@ -69,7 +69,7 @@ resource "aws_instance" "web" {
     private_key = tls_private_key.example.private_key_pem
     host     = aws_instance.web.public_ip
   }
-
+ 
 
   provisioner "remote-exec" {
     inline = [
